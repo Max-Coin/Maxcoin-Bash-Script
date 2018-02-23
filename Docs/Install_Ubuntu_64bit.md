@@ -19,7 +19,7 @@ git clone https://github.com/Max-Coin/Maxcoin-Bash-Script/
 ### Change Directory into Maxcoin-Bash-Script/
 
 ```
-cd Maxcoin-Bash-Script
+cd Maxcoin-Bash-Script/
 ```
 
 ## Step 3
@@ -27,7 +27,7 @@ cd Maxcoin-Bash-Script
 ### Executing the Bash script
 
 ```
-sudo chmod +x ./Installing_Maxcoin_Ubuntu.sh
+sudo chmod +x ./Installing_Maxcoin_Ubuntu_64bit.sh
 ```
 
 ## Step 4
@@ -35,5 +35,5 @@ sudo chmod +x ./Installing_Maxcoin_Ubuntu.sh
 ### Running the bash script
 
 ```
-./Installing_Maxcoin_Ubuntu.sh
+./Installing_Maxcoin_Ubuntu_64bit.sh
 ```
