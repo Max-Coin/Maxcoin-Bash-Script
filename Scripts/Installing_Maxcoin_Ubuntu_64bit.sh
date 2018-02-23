@@ -16,10 +16,6 @@ cd maxcoin-0.9.4.2/src
 # UBUNTU 16.04.3 ONLY (32 & 64 BIT)
 sed -i 's/<const\ CScriptID\&/<CScriptID/' rpcrawtransaction.cpp
 
-# UBUNTU 16.04.3 32-BIT ONLY
-# UNCOMMENT THIS IF YOU ARE USING 32 BIT, IM NOT SO NOT RUNNING IT
-# sed -i 's/\/usr\/lib\/libminiupnpc.a/\/usr\/lib\/i386-linux-gnu\/libminiupnpc.a/' makefile.unix
-
 # UBUNTU 16.04.3 64-BIT ONLY
 sed -i 's/\/usr\/lib\/libminiupnpc.a/\/usr\/lib\/x86_64-linux-gnu\/libminiupnpc.a/' makefile.unix
 
