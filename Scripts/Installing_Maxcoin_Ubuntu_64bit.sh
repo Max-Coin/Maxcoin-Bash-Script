@@ -14,13 +14,13 @@ sudo tar -zxvf v0.9.4.2.tar.gz
 cd maxcoin-0.9.4.2/src
 
 # UBUNTU 16.04.3 ONLY (32 & 64 BIT)
-sed -i 's/<const\ CScriptID\&/<CScriptID/' rpcrawtransaction.cpp
+sudo sed -i 's/<const\ CScriptID\&/<CScriptID/' rpcrawtransaction.cpp
 
 # UBUNTU 16.04.3 64-BIT ONLY
-sed -i 's/\/usr\/lib\/libminiupnpc.a/\/usr\/lib\/x86_64-linux-gnu\/libminiupnpc.a/' makefile.unix
+sudo sed -i 's/\/usr\/lib\/libminiupnpc.a/\/usr\/lib\/x86_64-linux-gnu\/libminiupnpc.a/' makefile.unix
 
 # Building the daemon
-make -f makefile.unix
+sudo make -f makefile.unix
 
 # debugging symbols can be removed from the binary to reduce its size. This can be done using strip:
 strip maxcoind
