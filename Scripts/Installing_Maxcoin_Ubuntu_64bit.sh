@@ -27,8 +27,8 @@ strip maxcoind
 
 # Then, to build the GUI, run the following commands:
 cd ..
-qmake maxcoin-qt.pro
-make
+sudo qmake 
+sudo make
 
 # Setting up Maxcoin Data Folder
 mkdir ~/.maxcoin/
